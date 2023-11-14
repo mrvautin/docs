@@ -74,7 +74,7 @@
     }
   ],
   "openapi": [
-    "./api/specs/checkout_v1.24.3_2023_11_09.yaml"
+    "/api/specs/checkout_v1.24.3_2023_11_09.yaml"
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/mintlify",
