@@ -28,7 +28,7 @@
   "tabs": [
     {
       "name": "API Reference",
-      "url": "api-reference"
+      "url": "api"
     }
   ],
   "anchors": [
@@ -59,16 +59,29 @@
     },
     {
       "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
+      "pages": ["api/introduction"]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Checkout",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api/checkout/create-a-checkout",
+        "api/checkout/get-a-checkout-by-id",
+        "api/checkout/list-checkouts",
+        "api/checkout/update-a-checkout",
+        "api/checkout/count-checkouts",
+        "api/checkout/create-a-checkout-notification"
+      ]
+    },
+    {
+      "group": "eCommerce",
+      "pages": [
+        "api/ecommerce/initiate-a-payment"
       ]
     }
+  ],
+  "openapi": [
+    "./api/specs/checkout_v1.24.3_2023_11_09.yaml", 
+    "./api/specs/Verifone-eCommerce-API-Cloud.yaml"
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/mintlify",
