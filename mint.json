@@ -71,17 +71,10 @@
         "api/checkout/count-checkouts",
         "api/checkout/create-a-checkout-notification"
       ]
-    },
-    {
-      "group": "eCommerce",
-      "pages": [
-        "api/ecommerce/initiate-a-payment"
-      ]
     }
   ],
   "openapi": [
-    "./api/specs/checkout_v1.24.3_2023_11_09.yaml", 
-    "./api/specs/Verifone-eCommerce-API-Cloud.yaml"
+    "./api/specs/checkout_v1.24.3_2023_11_09.yaml"
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/mintlify",
